@@ -1,0 +1,122 @@
+.image-slide {
+    max-width: 50%;
+    height: 80%;
+    margin: auto;
+    position: relative;
+  }
+.awssld__controls__arrow-left:before, .awssld__controls__arrow-left:after, .awssld__controls__arrow-right:before, .awssld__controls__arrow-right:after {
+    background-color: black;
+    width: 0.3rem;
+}
+.awssld__controls__arrow-right, .awssld__controls__arrow-left{
+    opacity: 1 !important;
+}
+.awssld__prev, .awssld__next{
+    width: 4rem !important;
+    height: 5rem !important;
+    color: black !important;
+}
+.awssld__prev:hover, .awssld__next:hover{
+    background-color: black;
+    color: white !important;
+    opacity: 1 !important;
+}
+.awssld__prev:hover > .awssld__controls__arrow-left:after,.awssld__prev:hover > .awssld__controls__arrow-left:before , .awssld__next:hover > .awssld__controls__arrow-right:after,.awssld__next:hover > .awssld__controls__arrow-right:before{
+    background-color: white !important;
+    color: white !important;
+    opacity: 1 !important;
+}
+.slide-even{
+    background-image: linear-gradient(to right,#f47521,#fab818) !important;
+}
+
+.slide-odd{
+    background-color: #28B1B0 !important;
+}
+/* .awssld__bullets{
+    bottom: -6rem;
+}
+.awssld__bullets button {
+    transform: none;
+    border-radius: 0%;
+    height: 4rem;
+    width: 12rem;
+    background-color: #23252B;
+    position: relative;
+    border: none;
+    color: blueviolet;
+    font-size: larger;
+    cursor: pointer;
+    font-size: 20px;
+} */
+
+.textoSlide{
+    font-size: 0.7rem;
+    z-index: 9999;
+    display: inline-block;
+    color: white;
+}
+.my-custom-navigation{
+    margin-left: 1rem;
+    width: 10rem;
+    height: 3.5rem;
+    background-color: #23252B;
+    color: black;
+    z-index: 100;
+    cursor: pointer;
+}
+.navigation-pre-loading{
+    width: 100%;
+    height: 0.2rem;
+    background-color: #909CA2;
+    z-index: 100;
+    cursor: pointer;
+}
+.navigation-loading{
+    width: 10%;
+    height: 100%;
+    background-color: #F47521;
+    z-index: 100;
+    cursor: pointer;
+    animation-name: grow;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes grow {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+.my-custom-navigation > span{
+    margin: auto;
+}
+.my-custom-navigation:hover{
+    background-color: #303237;
+}
+.my-custom-navigation:hover >.navigation-pre-loading > .navigation-loading{
+    animation-play-state: paused;
+}
+.my-custom-navigation-selected{
+    background-color: #213944 !important;
+}
+.my-custom-navigation-selected:hover{
+    background-color: #2F5161 !important;
+}
+/* .awssld__bullets button:hover{
+    transform: none;
+}
+
+.awssld__bullets button.awssld__bullets--active {
+    transform: none;
+    background-color: #213944;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .awssld__bullets button.awssld__bullets--active:hover{
+    transform: none;
+} */
