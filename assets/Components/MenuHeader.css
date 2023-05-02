@@ -1,0 +1,13 @@
+.scroll::-webkit-scrollbar-thumb{
+    background-color: #59595B;
+
+}
+
+.scroll::-webkit-scrollbar-track{
+    background-color: #1D1E23;
+}
+
+.scroll::-webkit-scrollbar{
+    scroll-margin: 1rem;
+    width: 6px;
+}
