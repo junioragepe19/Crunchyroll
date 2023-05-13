@@ -10,9 +10,8 @@ import { MenuHeader } from './assets/Components/MenuHeader'
 function App() {
   const [menu, setMenu] = useState(false);
   
-  const OpenMenu = (value) => {
-    console.log("texto")
-    setMenu(value);
+  const OpenMenu = () => {
+    setMenu(!menu);
   }
 
   return (
