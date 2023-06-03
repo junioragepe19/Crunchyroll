@@ -41,7 +41,6 @@ export function Header({OpenMenu}){
     useEffect(() => {
     function atualizarLarguraDaTela() {
         let tela = document.getElementById('tela')
-        console.log(tela.clientWidth)
         setLarguraDaTela(tela.clientWidth);
     }
     atualizarLarguraDaTela();

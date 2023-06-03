@@ -42,6 +42,7 @@ export function Amostra(){
         <AnimesList textoPrincipal='Uma amostra da temporada de primavera 2023'
         legenda='Assista os três primeiros episódios desses simulcasts da primavera 2023 de graça!'
         slides={slidestoRead}
+        distance='mt-[41rem]'
         colorBorder='#2AB7B5' />
     )
 }

@@ -23,11 +23,11 @@ function App() {
         <div>
         </div>         
       }
-      {/* <Carrosel />
+      <Carrosel />
       <Classificacao />
       <Amostra />
       <WatchFree />
-      <Comercial /> */}
+      <Comercial />
     </div>
   )
 }

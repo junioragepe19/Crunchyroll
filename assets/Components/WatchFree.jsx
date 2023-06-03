@@ -42,6 +42,7 @@ export function WatchFree(){
         <AnimesList textoPrincipal='Assista de graça!'
         legenda='Assista alguns dos nossos títulos mais populares'
         slides={slidestoRead}
+        distance='mt-[70rem]'
         colorBorder='#EF4723' />
     )
 }
