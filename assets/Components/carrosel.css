@@ -11,6 +11,14 @@
 .awssld__controls__arrow-right, .awssld__controls__arrow-left{
     opacity: 1 !important;
 }
+.ytp-title-channel-logo{
+    visibility: hidden;
+}
+
+.ytp-title-text{
+    background-color: black !important;
+    visibility: hidden !important;
+}
 .awssld__prev, .awssld__next{
     width: 4rem !important;
     height: 5rem !important;
@@ -29,7 +37,12 @@
 .slide-even{
     background-image: linear-gradient(to right,#f47521,#fab818) !important;
 }
-
+.bug{
+    z-index: 20 !important;
+    color: white;
+    position: absolute;
+    margin-top: 20rem;
+}
 .slide-odd{
     background-color: #28B1B0 !important;
 }
@@ -52,7 +65,7 @@
 
 .textoSlide{
     font-size: 0.7rem;
-    z-index: 9999;
+    z-index: 90;
     display: inline-block;
     color: white;
 }

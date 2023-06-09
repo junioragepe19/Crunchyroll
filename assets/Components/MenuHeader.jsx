@@ -6,7 +6,7 @@ import './MenuHeader.css'
 export function MenuHeader(){
 
     return(
-        <div className="absolute z-101 mt-14 left-0 w-full h-full bg-white">
+        <div className="mt-14 left-0 w-full h-full bg-white">
             <div className="scroll w-[14rem] h-full bg-[#141519] overflow-auto">
                 <span className="uppercase text-[10px] text-[#A0A0A0] pl-3">Navegar</span>
                 <div className="h-full w-full font-medium">
